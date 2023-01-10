@@ -1,0 +1,17 @@
+.containner{
+display: grid;
+place-items: center;
+height:100vh;
+background-color: rgb(228, 224, 224);
+align-items: center;
+justify-content: center;
+align-content: center;
+}
+.body{
+background-color:white;
+width: 90vw;
+height: 90vh;
+display: flex;
+box-shadow: -6px 10px 20px -6px black;
+}
+

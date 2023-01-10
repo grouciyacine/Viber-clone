@@ -1,0 +1,70 @@
+.container_all{
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   border-right: 1px solid lightgray;
+   flex: 0.3;
+   border-bottom: 1px solid lightgray;
+}
+/*.elem{
+    display: flex;
+    flex-direction: column;
+
+}*/
+.header{
+    
+    border-bottom: 1px solid lightgray;
+}
+.body{
+    
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    flex: 1;
+    overflow: scroll;
+}
+.footer{
+    background-color: white;
+}
+.headericone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px 0 10px 0px;
+    border-bottom: 1px solid lightgray;
+}
+.input{
+   display: flex;
+   flex-direction: row;
+    align-content: space-between;
+   align-items: center;
+    justify-content: space-around;
+    padding: 10px 0 10px 15px;
+    border-bottom: 1px solid lightgray;
+}
+.inp{
+    flex: 0.9;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: lightgray;
+    padding: 5px 5px 10px 5px;        
+}
+.inp>input{
+    border: none;
+    background-color: lightgray;
+}
+.vibetype{
+display:flex;
+align-items: center;
+justify-content: space-around;
+transition: all 0.5s ease;
+cursor: pointer;
+}
+.vibetype:hover{
+background-color: lightgray;
+
+}
+.sea{
+    color: gray;
+}

@@ -1,0 +1,24 @@
+.car{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+.car:hover{
+background-color: rgb(228, 226, 226);
+}
+.add{
+    margin-left: 80px;
+}
+.rl{
+    display: flex;
+    flex-direction: column;
+}
+.l{
+    margin-top: 5px;
+}
+.r{
+    margin-bottom: 4px;
+}

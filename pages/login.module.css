@@ -1,0 +1,50 @@
+.total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background:url('./vi.jpg');
+    width: 30%;
+    height: 90vh;
+    border-radius: 20px;
+    box-shadow: -6px 13px 20px -6px black;
+z-index: 1;
+}
+.img{
+    transform: translate(0px,0px);
+    background:url('./vi.jpg');
+    border-radius: 20px;
+}
+.con{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.ti{
+    display: flex;
+   flex-direction: column;
+   padding: 10px 20px 10px 20px;
+   margin-bottom: 5px;
+}
+.in{
+    padding: 10px 20px 10px 20px;
+    border: none;
+
+    border-radius: 20px;
+    margin: 10px;
+    background-color: lightgray;   
+}
+.button1{
+    padding: 10px 50px 15px 50px;
+    margin: 10px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    background-color:#8f5db7 ;
+    border-radius: 10px;
+    
+}
